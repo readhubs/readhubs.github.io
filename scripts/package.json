@@ -1,0 +1,13 @@
+{
+  "name": "readhubs-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ReadHubs book processing utilities",
+  "scripts": {
+    "process": "node process-books.js",
+    "upload": "node bulk-upload.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0"
+  }
+}

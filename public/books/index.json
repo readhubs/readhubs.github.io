@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "atomic-habits",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Habits & Discipline",
+    "description": "A groundbreaking book about building good habits and breaking bad ones through tiny incremental changes.",
+    "keywords": ["habits", "productivity", "behavior", "change", "self-improvement"],
+    "cover": "",
+    "language": "en",
+    "featured": true,
+    "readTime": 240,
+    "dateAdded": "2025-01-01",
+    "articleCount": 15
+  },
+  {
+    "slug": "deep-work",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "category": "Self-Help & Productivity",
+    "description": "Rules for focused success in a distracted world.",
+    "keywords": ["focus", "productivity", "work"],
+    "cover": "",
+    "language": "en",
+    "featured": true,
+    "readTime": 200,
+    "dateAdded": "2025-01-02",
+    "articleCount": 5
+  },
+  {
+    "slug": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "category": "Mindfulness & Meditation",
+    "description": "Stoic philosophy and mindfulness practices from a Roman Emperor.",
+    "keywords": ["stoicism", "philosophy", "mindfulness"],
+    "cover": "",
+    "language": "en",
+    "featured": false,
+    "readTime": 180,
+    "dateAdded": "2025-01-03",
+    "articleCount": 0
+  },
+  {
+    "slug": "el-poder-del-ahora",
+    "title": "El Poder del Ahora",
+    "author": "Eckhart Tolle",
+    "category": "Mindfulness & Meditation",
+    "description": "Una guía para la iluminación espiritual.",
+    "keywords": ["mindfulness", "espiritualidad", "presente"],
+    "cover": "",
+    "language": "es",
+    "featured": true,
+    "readTime": 210,
+    "dateAdded": "2025-01-04",
+    "articleCount": 2
+  }
+]
