@@ -21,18 +21,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Install app dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: npm install
 
       - name: Install script dependencies
         run: cd scripts && npm install
@@ -44,7 +39,7 @@ jobs:
         run: node scripts/process-books.js
 
       - name: Build site
-        run: pnpm run build
+        run: npm run build
         env:
           NODE_ENV: production
           BASE_PATH: /
@@ -67,4 +62,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
